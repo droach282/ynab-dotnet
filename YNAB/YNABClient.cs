@@ -27,12 +27,11 @@ namespace YNAB
         {
             var request = new RestRequest("user", Method.GET);
             var response = _client.Execute(request);
-            Console.WriteLine(response.Content);
             var content = JsonConvert.DeserializeObject<DataResponse<UserResponse>>(response.Content);
 
             if (content.Error != null)
             {
-                throw new Exception(content.Error.Error.Detail);
+                throw new Exception(content.Error.Detail);
             }
 
             return (content.Data as UserResponse)?.User;
