@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YNAB", "YNAB\YNAB.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YNAB.Tests", "YNAB.Tests\YNAB.Tests.csproj", "{23C74953-0D94-4E48-B499-65EFBBFFD0AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YNAB.Testbed", "YNAB.Testbed\YNAB.Testbed.csproj", "{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{23C74953-0D94-4E48-B499-65EFBBFFD0AE}.Release|x64.Build.0 = Release|Any CPU
 		{23C74953-0D94-4E48-B499-65EFBBFFD0AE}.Release|x86.ActiveCfg = Release|Any CPU
 		{23C74953-0D94-4E48-B499-65EFBBFFD0AE}.Release|x86.Build.0 = Release|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Debug|x64.Build.0 = Debug|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Debug|x86.Build.0 = Debug|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Release|x64.ActiveCfg = Release|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Release|x64.Build.0 = Release|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Release|x86.ActiveCfg = Release|Any CPU
+		{8D73A997-02B3-4C1A-AFAF-41FF51D08D80}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
