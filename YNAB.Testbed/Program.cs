@@ -16,6 +16,13 @@ namespace YNAB.Testbed
             var user = ynab.GetCurrentUser();
 
             Console.WriteLine(user.Id);
+
+            var budgets = ynab.GetBudgets();
+
+            foreach (var budget in budgets)
+            {
+                Console.WriteLine($"Budget {budget.Id}: {budget.name}");
+            }
         }
     }
 }
